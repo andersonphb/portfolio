@@ -6,49 +6,65 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
     <title>portflio</title>
 </head>
 <body>
-   <div class="container">
-    <header>
-        <img src="imagens/Anderson.png" alt="Imagem-portfolio">
-        <h1>Anderson Silva</h1>
-        <p>No sistema do Divino Programador sou uma nanopartícula.</p>
-    </header>
-    <section class="botoes-links">
-        
-        <a href="https://www.linkedin.com/in/anderson-silva-a872a3307/" target="_blank" class="link">
-            <button>
-                <span>linkedin</span>
-                <i class="bi bi-linkedin"></i>
-            </button>
-        </a>
 
-        <a href="https://github.com/andersonphb" target="_blank" class="link">
-            <button>
-                <span>GitHub</span>
-                <i class="bi bi-github"></i>
-            </button>
-        </a>
-
-
-        <a href="https://wa.me/5586981943840" target="_blank" class="link">
-            <button>
-                <span>WhatsApp</span>
-                <i class="bi bi-whatsapp"></i>
-            </button>
-        </a>
-        
-    </section>
-   </div> 
-
-   <footer>
-      <p class="rodape">autor: Anderson Silva &#174;</p>
+    <!-- Dark Mode -->
+    <h3>Modo dark e modo light</h3>
+    <div class="trilho" id="trilho">
+        <div class="indicador"></div>
+    </div>
+    <!-- Dark Mode END -->
+   
+    <div class="container">
     
-      <p class="rodape">handerson@outlook.com.pt</p>
-  </footer>
+        <header>
+           <img src="imagens/Anderson.png" alt="Imagem-portfolio">
+           <h1>Anderson Silva</h1>
+           <h2>Densenvolvedor Front-End e Mobile</h2>
+           <p>No sistema do Divino Programador sou uma nanopartícula.</p>
+        </header>
+    
+        <section class="botoes-links">
+        
+           <a href="calculadora/index.html" target="_blank" class="link">
+             <button>
+                <span>Calculadora Em HTML</span>
+                <i class='bx bxs-calculator'></i>
+             </button>
+           </a>
 
+           <a href="https://kahdlook.netlify.app/" target="_blank" class="link">
+             <button>
+                <span>portflio kahdlook</span>
+                <i class='bx bx-code-alt'></i>
+             </button>
+            </a>
+
+
+        <a href="#" target="_blank" class="link">
+            <button>
+                <span>Em Desenvolvimento...</span>
+                <i class='bx bxl-visual-studio'></i>
+            </button>
+        </a>
+        
+        </section>
+
+        <section>
+            <div class="contact-buttons">
+                <a href="https://www.linkedin.com/in/anderson-silva-a872a3307/" class="btn-social" target="_blank"><i class='bx bxl-linkedin-square'></i>
+                <a href="https://github.com/andersonphb" class="btn-social" target="_blank"><i class='bx bxl-github'></i>
+                <a href="https://wa.me/5586981943840" class="btn-social" target="_blank"><i class='bx bxl-whatsapp'></i>
+            </div>
+        </section>
+
+    </div> 
+
+    <script src="javascript.js"></script>
 </body>
 </html>
